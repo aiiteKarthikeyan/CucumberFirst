@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2591181200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonMethods.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "loginpage",
+        "description": "",
+        "id": "facebook-login;loginpage",
+        "after": [
+          {
+            "result": {
+              "duration": 39200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonMethods.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1198831400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepsSecond.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164464400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "LoginPageStepsSecond.enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335353600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginPageStepsSecond.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "Features/loginsecond.feature",
+    "tags": []
+  }
+]
