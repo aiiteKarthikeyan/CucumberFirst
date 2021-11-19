@@ -16,6 +16,7 @@ public class LoginPageStepsSecond {
 	public void open_facebook_and_launch_the_application() {
  		CommonMethods.driver.get("https://www.facebook.com");
 		System.out.println("This step opens the facebook and launch the application.");
+		System.out.println("This is the step to check GITHUB");
 	}
 
 	@When("^Enter the Username and Password$")
