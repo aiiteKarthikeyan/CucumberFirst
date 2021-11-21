@@ -3,12 +3,12 @@ package org.repository;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.stepdefinition.Hook;
 
-import org.stepdefinition.CommonMethods;
 
 public class LoginPageRepo {
 	public LoginPageRepo() {
-		PageFactory.initElements(CommonMethods.driver, this);
+		PageFactory.initElements(Hook.driver, this);
 	}
 
 	@FindBy(id = "email")
